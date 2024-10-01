@@ -8,8 +8,12 @@
 import SwiftUI
 
 struct HomeView: View {
+    @State private var title: String = "*** Welcome to Ryden Bikes ***"
     var body: some View {
         VStack {
+            Text(title)
+                .foregroundStyle(.red)
+                .font(.title)
             Image(systemName: "bicycle.circle")
                 .imageScale(.large)
                 .foregroundStyle(.orange)
