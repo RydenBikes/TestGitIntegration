@@ -52,6 +52,7 @@ struct ContentView: View {
             .foregroundStyle(.black)
             .background(.cyan)
             Rectangle()
+            Text("This is the text I want to stash...")
         }
         .padding()
     }
