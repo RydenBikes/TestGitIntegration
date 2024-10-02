@@ -9,6 +9,7 @@ import SwiftUI
 
 struct HomeView: View {
     @State private var title: String = "*** Welcome to Ryden Bikes ***"
+    @State private var subscriber: String = "Anonymous"
     var body: some View {
         VStack {
             Text(title)
@@ -18,12 +19,15 @@ struct HomeView: View {
                 .imageScale(.large)
                 .foregroundStyle(.orange)
                 .font(.largeTitle)
-            Text("Hello Ryden")
+            Text("Hello \(subscriber)")
             Text("This is a bicycle app")
             Image(systemName:"figure.outdoor.cycle")
                 .imageScale(.large)
                 .foregroundStyle(.blue)
                 .font(.largeTitle)
+            Text("You'll be able to improve here")
+                .foregroundStyle(.blue)
+                .font(.headline)
         }
     }
 }
