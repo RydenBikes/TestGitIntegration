@@ -40,12 +40,13 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
                 .font(.largeTitle)
-            Text("Lovey dovey...")
             
-            Button("Subscribe"){
+            Button("Subscribe NOW!! Darnit..."){
                 //nothing
             }
-            .background(.green)
+            .background(.yellow)
+            .foregroundStyle(.red)
+            .font(.title)
             Button("Unsubscribe"){
                 //nothing
             }
@@ -53,6 +54,8 @@ struct ContentView: View {
             .background(.cyan)
             Rectangle()
             Text("This is the text I want to stash...")
+                .background(.yellow)
+            
         }
         .padding()
     }
