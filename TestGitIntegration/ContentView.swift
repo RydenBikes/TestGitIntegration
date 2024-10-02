@@ -8,7 +8,7 @@
 /*
  THINGS we learned
  ----------------------
- Clone = Copying the repo Locally usually do this once. After than we have a local repo so we push and pull. 
+ Clone = Copying the repo Locally usually do this once. After than we have a local repo so we push and pull.
  Commit = Save (* checkpoint *) on our current branch
  Stage = Prepare changers for a commit
  Stash = Save changes for later - when you apply it brings changes back on current repo kind of useful for when you pull another branch and the want to apply the stashed changes.
@@ -44,7 +44,7 @@ struct ContentView: View {
                 .foregroundStyle(.tint)
                 .font(.largeTitle)
             
-            Button("Subscribe NOW!! Darnit..."){
+            Button("Subscribe NOW!!"){
                 //nothing
             }
             .background(.yellow)
