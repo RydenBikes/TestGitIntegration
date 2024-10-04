@@ -58,6 +58,7 @@ struct ContentView: View {
             .foregroundStyle(.black)
             .background(.cyan)
             Rectangle()
+            Rectangle()
             Text("Change this for another push ")
                 .background(.yellow)
             
