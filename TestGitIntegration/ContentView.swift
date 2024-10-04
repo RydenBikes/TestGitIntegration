@@ -12,6 +12,8 @@
  Commit = Save (* checkpoint *) on our current branch
  Stage = Prepare changers for a commit
  Stash = Save changes for later - when you apply it brings changes back on current repo kind of useful for when you pull another branch and the want to apply the stashed changes.
+ 
+ *** This is for Push and Pull from a remote repo - Swiftful thinking Git and Source #5
  Push = Send Local commits to remote repo
  Pull = Fetch remote repo to local repo
  
