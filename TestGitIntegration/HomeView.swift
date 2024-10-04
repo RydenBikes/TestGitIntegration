@@ -27,7 +27,7 @@ struct HomeView: View {
                 .font(.largeTitle)
             Text("You'll be able to improve here")
                 .foregroundStyle(.blue)
-                .font(.headline)
+                .font(.largeTitle)
         }
     }
 }
