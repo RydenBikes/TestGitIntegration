@@ -58,7 +58,7 @@ struct ContentView: View {
             .foregroundStyle(.black)
             .background(.cyan)
             Rectangle()
-            Text("This is the text I want to stash...")
+            Text("Change this for another push ")
                 .background(.yellow)
             
         }
