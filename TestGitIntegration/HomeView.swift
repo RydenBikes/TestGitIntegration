@@ -29,6 +29,9 @@ struct HomeView: View {
                 .foregroundStyle(.blue)
                 .font(.largeTitle)
         }
+        .onAppear {
+            //send analytics
+        }
     }
 }
 
