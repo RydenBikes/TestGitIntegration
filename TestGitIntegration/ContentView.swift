@@ -46,7 +46,7 @@ struct ContentView: View {
                 .foregroundStyle(.tint)
                 .font(.largeTitle)
             
-            Button("Subscribe using Strava"){
+            Button("Connect to Strava"){
                 //nothing
             }
             .background(.yellow)
