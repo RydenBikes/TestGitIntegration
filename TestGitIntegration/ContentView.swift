@@ -52,7 +52,7 @@ struct ContentView: View {
             .background(.yellow)
             .foregroundStyle(.red)
             .font(.title)
-            Button("Unsubscribe"){
+            Button("Unsubscribe - Really?"){
                 //nothing
             }
             .foregroundStyle(.black)
